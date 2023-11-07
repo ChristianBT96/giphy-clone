@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Giphy Clone</h1>
+    </header>
+
+    <main class="main">
+        <div class="search-field">
+            <label for="search">Search for gifs</label>
+            <input id="search" type="text" placeholder="Search for gifs" class="search-input">
+        </div>
+        <div class="limit">
+            <label for="number-of-gifs">Number of gifs</label>
+            <input id="number-of-gifs" type="number" placeholder="Number of gifs" class="amount-input">
+        </div>
+        <button class="search-btn">Search</button>
+        <div class="buttons">
+            <button class="random-gif">Get a random gif</button>
+            <button class="trending-btn">Get 5 trending gifs</button>
+        </div>
+
+    </main>
+
+    <div class="result-container">
+        <ul class="results">
+
+        </ul>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
